@@ -5,6 +5,8 @@
  */
 package patient.management.system.HospitalSystem;
 
+import javax.swing.JTextField;
+
 /**
  *
  * @author camer
@@ -14,5 +16,9 @@ public class PatientSurname extends Users{
     public PatientSurname(String PatientSurname)
     {
         this.PatientSurname = PatientSurname;
+    }
+
+    PatientSurname() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

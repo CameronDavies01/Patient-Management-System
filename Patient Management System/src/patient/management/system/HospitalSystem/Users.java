@@ -9,7 +9,7 @@ package patient.management.system.HospitalSystem;
  *
  * @author camer
  */
-public class Users {
+public class Users{
     protected int PatientID = 0000;
     protected  String PatientForename = "UNKNOWN";
     protected  String PatientSurname = "UNKNOWN";
@@ -69,19 +69,19 @@ public class Users {
     public String getPatientForename() {
         return PatientForename;
     }
-    
 
     public void setPatientForename(String PatientForename) {
 
         if(PatientForename != null && !PatientForename.isEmpty())
         {
-        this.PatientForename = PatientForename;
+            this.PatientForename = PatientForename;
     }
     }
 
     public String getPatientSurname() {
         return PatientSurname;
     }
+    
 
     public void setPatientSurname(String PatientSurname) {
         if(PatientSurname != null && !PatientSurname.isEmpty())

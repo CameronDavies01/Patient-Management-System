@@ -5,6 +5,8 @@
  */
 package patient.management.system.HospitalSystem;
 
+import javax.swing.JTextField;
+
 /**
  *
  * @author camer

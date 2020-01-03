@@ -15,7 +15,7 @@ import patient.management.system.HospitalSystem.PatientEmail;
 import patient.management.system.HospitalSystem.PatientUsername;
 import patient.management.system.HospitalSystem.PatientPassword;
 import patient.management.system.HospitalSystem.PatientPostcode;
-import patient.management.system.HospitalSystem.PatientSignUpGUI;
+
 
 import javax.swing.JOptionPane;
 
