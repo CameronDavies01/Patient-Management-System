@@ -17,4 +17,8 @@ public class PatientForename extends Users{
         this.PatientForename = PatientForename;
         
     }
+
+    PatientForename() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
