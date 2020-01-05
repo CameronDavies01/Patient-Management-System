@@ -17,4 +17,8 @@ public class PatientAddressLine1 extends Users{
     {
         this.PatientAddressLine1 = PatientAddressLine1;
     }
+
+    PatientAddressLine1() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

@@ -17,4 +17,8 @@ public class PatientPostcode extends Users{
     {
         this.PatientPostcode = PatientPostcode;
     }
+
+    PatientPostcode() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

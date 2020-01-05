@@ -17,4 +17,8 @@ public class PatientPassword extends Users{
     {
         this.PatientPassword = PatientPassword;
     }
+
+    PatientPassword() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

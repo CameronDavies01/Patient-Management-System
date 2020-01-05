@@ -9,9 +9,9 @@ package patient.management.system.HospitalSystem;
  *
  * @author camer
  */
-class TextPatientPassword {
+class TextPatientUsername {
 
-    static Object getPatientPassword() {
+    static Object getPatientUsername() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

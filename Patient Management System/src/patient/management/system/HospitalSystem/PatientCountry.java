@@ -17,4 +17,8 @@ public class PatientCountry extends Users{
     {
         this.PatientCountry = PatientCountry;
     }
+
+    PatientCountry() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

@@ -19,9 +19,6 @@ public final class UI extends javax.swing.JFrame {
 
     
 
-    
-
-
 
     /**
      * Creates new form PatientSignup
@@ -257,6 +254,11 @@ public final class UI extends javax.swing.JFrame {
         });
 
         jButton8.setText("SIGN UP");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout LogInPanel1Layout = new javax.swing.GroupLayout(LogInPanel1);
         LogInPanel1.setLayout(LogInPanel1Layout);
@@ -646,6 +648,7 @@ public final class UI extends javax.swing.JFrame {
     }
 
     public JButton getjButton1() {
+   
         return jButton1;
     }
 
@@ -678,6 +681,7 @@ public final class UI extends javax.swing.JFrame {
     }
 
     public JButton getjButton7() {
+        
         return jButton7;
     }
 
@@ -696,12 +700,20 @@ public final class UI extends javax.swing.JFrame {
       
         
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-	
 LogIn.setVisible(true);
 LogIn.setExtendedState( LogIn.getExtendedState()|LogIn.MAXIMIZED_BOTH );
 SignUp.setVisible(false);	
-
-        
+PatientForename TextPatientForename = new PatientForename(getjTextField1()); 
+PatientSurname TextPatientSurname = new PatientSurname(getjTextField2());
+PatientUsername TextPatientUsername = new PatientUsername(getjTextField3());
+PatientPassword TextPatientPassword = new PatientPassword(getjTextField4());
+PatientEmail TextPatientEmail = new PatientEmail(getjTextField5());
+PatientCountry TextPatientCountry = new PatientCountry(getjTextField6());
+PatientCity TextPatientCity = new PatientCity(getjTextField7());
+PatientAddressLine1 TextPatientAddressLine1 = new PatientAddressLine1(getjTextField8());
+PatientAddressLine2 TextPatientAddressLine2 = new PatientAddressLine2(getjTextField9());
+PatientPostcode TextPatientPostcode = new PatientPostcode(getjTextField10()); 
+    
 
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -714,26 +726,14 @@ SignUp.setVisible(false);
     }//GEN-LAST:event_jTextField23ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-PatientForename TextPatientForename = new PatientForename(getjTextField1()); 
-PatientSurname TextPatientSurname = new PatientSurname(getjTextField2());
-PatientUsername TextPatientUsername = new PatientUsername(getjTextField3());
-PatientPassword TextPatientPassword = new PatientPassword(getjTextField4());
-PatientEmail TextPatientEmail = new PatientEmail(getjTextField5());
-PatientCountry TextPatientCountry = new PatientCountry(getjTextField6());
-PatientCity TextPatientCity = new PatientCity(getjTextField7());
-PatientAddressLine1 TextPatientAddressLine1 = new PatientAddressLine1(getjTextField8());
-PatientAddressLine2 TextPatientAddressLine2 = new PatientAddressLine2(getjTextField9());
-PatientPostcode TextPatientPostcode = new PatientPostcode(getjTextField10());
 
-if (jTextField23.getText().equals(TextPatientUsername.getPatientUsername()) && (jTextField24.getText().equals(TextPatientPassword.getPatientPassword())))
- { 
-    jLabel27.setText(TextPatientUsername.getPatientUsername());
+ if (jTextField23.getText().equals(TextPatientUsername.getPatientUsername()) && (jTextField24.getText().equals(TextPatientPassword.getPatientPassword())))
+ {  
+    jLabel27.setText((String) TextPatientUsername.getPatientUsername());
  }
-    }//GEN-LAST:event_jButton7ActionPerformed
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton5ActionPerformed
+
+    }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jTextField20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField20ActionPerformed
         // TODO add your handling code here:
@@ -746,6 +746,14 @@ if (jTextField23.getText().equals(TextPatientUsername.getPatientUsername()) && (
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+     
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton8ActionPerformed
 
 
     /**
@@ -790,10 +798,10 @@ if (jTextField23.getText().equals(TextPatientUsername.getPatientUsername()) && (
     private javax.swing.JFrame SignUp;
     public javax.swing.JButton jButton1;
     public javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton5;
+    public javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
-    protected javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
+    public javax.swing.JButton jButton7;
+    public javax.swing.JButton jButton8;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -844,7 +852,7 @@ if (jTextField23.getText().equals(TextPatientUsername.getPatientUsername()) && (
     // End of variables declaration//GEN-END:variables
 
     
-   
+
 
     
 }
