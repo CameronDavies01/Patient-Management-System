@@ -59,7 +59,7 @@ public class SecretarySignUpTest {
                 new SecretaryAddressLine1(InputSecretaryAddressFirstLine);
         SecretaryAddressLine2 objSecretaryAddressLine2 =
                 new SecretaryAddressLine2(InputSecretaryAddressSecondLine);
-        SecretaryPostcode objSecretaryPostcode =
+        SecretaryPostcode objSecretaryPostcode  =
                 new SecretaryPostcode(InputSecretaryPostcode);
         
         String strMessage = "The patients name is " + objSecretaryForename.getSecretaryForename() 

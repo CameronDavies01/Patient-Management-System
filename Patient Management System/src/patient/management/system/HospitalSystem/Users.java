@@ -45,6 +45,8 @@ public class Users{
     protected  String DoctorAddressLine1 = "UNKNOWN";
     protected  String DoctorAddressLine2 = "UNKNOWN";
     protected  String DoctorPostcode = "UNKNOWN";
+    protected  int DoctorRating = 00;
+    protected  String DoctorReview = "UNKNOWN";
     
     protected  int AdminID = 0000;
     protected  String AdminForename = "UNKNOWN";
