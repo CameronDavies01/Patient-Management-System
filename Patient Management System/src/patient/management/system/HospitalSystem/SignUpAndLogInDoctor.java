@@ -15,7 +15,7 @@ import javax.swing.JTextField;
  * javax.swing.JFrame
  * @author camer
  */
-public final class UI extends javax.swing.JFrame {
+public final class SignUpAndLogInDoctor extends javax.swing.JFrame {
 
     
 
@@ -23,7 +23,7 @@ public final class UI extends javax.swing.JFrame {
     /**
      * Creates new form PatientSignup
      */
-    public UI() {
+    public SignUpAndLogInDoctor() {
         initComponents();
     }
 
@@ -703,16 +703,7 @@ public final class UI extends javax.swing.JFrame {
 LogIn.setVisible(true);
 LogIn.setExtendedState( LogIn.getExtendedState()|LogIn.MAXIMIZED_BOTH );
 SignUp.setVisible(false);	
-PatientForename TextPatientForename = new PatientForename(getjTextField1()); 
-PatientSurname TextPatientSurname = new PatientSurname(getjTextField2());
-PatientUsername TextPatientUsername = new PatientUsername(getjTextField3());
-PatientPassword TextPatientPassword = new PatientPassword(getjTextField4());
-PatientEmail TextPatientEmail = new PatientEmail(getjTextField5());
-PatientCountry TextPatientCountry = new PatientCountry(getjTextField6());
-PatientCity TextPatientCity = new PatientCity(getjTextField7());
-PatientAddressLine1 TextPatientAddressLine1 = new PatientAddressLine1(getjTextField8());
-PatientAddressLine2 TextPatientAddressLine2 = new PatientAddressLine2(getjTextField9());
-PatientPostcode TextPatientPostcode = new PatientPostcode(getjTextField10()); 
+
     
 
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -726,7 +717,16 @@ PatientPostcode TextPatientPostcode = new PatientPostcode(getjTextField10());
     }//GEN-LAST:event_jTextField23ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-
+DoctorForename TextDoctorForename = new DoctorForename(getjTextField1()); 
+DoctorSurname TextDoctorSurname = new DoctorSurname(getjTextField2());
+DoctorUsername TextDoctorUsername = new DoctorUsername(getjTextField3());
+DoctorPassword TextDoctorPassword = new DoctorPassword(getjTextField4());
+DoctorEmail TextDoctorEmail = new DoctorEmail(getjTextField5());
+DoctorCountry TextDoctorCountry = new DoctorCountry(getjTextField6());
+DoctorCity TextDoctorCity = new DoctorCity(getjTextField7());
+DoctorAddressLine1 TextDoctorAddressLine1 = new DoctorAddressLine1(getjTextField8());
+DoctorAddressLine2 TextDoctorAddressLine2 = new DoctorAddressLine2(getjTextField9());
+DoctorPostcode TextDoctorPostcode = new DoctorPostcode(getjTextField10()); 
  if (jTextField23.getText().equals(TextPatientUsername.getPatientUsername()) && (jTextField24.getText().equals(TextPatientPassword.getPatientPassword())))
  {  
     jLabel27.setText((String) TextPatientUsername.getPatientUsername());
@@ -773,21 +773,27 @@ PatientPostcode TextPatientPostcode = new PatientPostcode(getjTextField10());
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(UI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SignUpAndLogInDoctor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(UI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SignUpAndLogInDoctor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(UI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SignUpAndLogInDoctor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(UI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SignUpAndLogInDoctor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new UI().setVisible(true);
+                new SignUpAndLogInDoctor().setVisible(true);
             }
         });
     }
