@@ -727,9 +727,9 @@ DoctorCity TextDoctorCity = new DoctorCity(getjTextField7());
 DoctorAddressLine1 TextDoctorAddressLine1 = new DoctorAddressLine1(getjTextField8());
 DoctorAddressLine2 TextDoctorAddressLine2 = new DoctorAddressLine2(getjTextField9());
 DoctorPostcode TextDoctorPostcode = new DoctorPostcode(getjTextField10()); 
- if (jTextField23.getText().equals(TextPatientUsername.getPatientUsername()) && (jTextField24.getText().equals(TextPatientPassword.getPatientPassword())))
+ if (jTextField23.getText().equals(TextDoctorUsername.getDoctorUsername()) && (jTextField24.getText().equals(TextDoctorPassword.getDoctorPassword())))
  {  
-    jLabel27.setText((String) TextPatientUsername.getPatientUsername());
+    jLabel27.setText((String) TextDoctorUsername.getDoctorUsername());
  }
 
 

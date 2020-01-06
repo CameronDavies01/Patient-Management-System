@@ -717,19 +717,19 @@ SignUp.setVisible(false);
     }//GEN-LAST:event_jTextField23ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-PatientForename TextPatientForename = new PatientForename(getjTextField1()); 
-PatientSurname TextPatientSurname = new PatientSurname(getjTextField2());
-PatientUsername TextPatientUsername = new PatientUsername(getjTextField3());
-PatientPassword TextPatientPassword = new PatientPassword(getjTextField4());
-PatientEmail TextPatientEmail = new PatientEmail(getjTextField5());
-PatientCountry TextPatientCountry = new PatientCountry(getjTextField6());
-PatientCity TextPatientCity = new PatientCity(getjTextField7());
-PatientAddressLine1 TextPatientAddressLine1 = new PatientAddressLine1(getjTextField8());
-PatientAddressLine2 TextPatientAddressLine2 = new PatientAddressLine2(getjTextField9());
-PatientPostcode TextPatientPostcode = new PatientPostcode(getjTextField10()); 
- if (jTextField23.getText().equals(TextPatientUsername.getPatientUsername()) && (jTextField24.getText().equals(TextPatientPassword.getPatientPassword())))
+SecretaryForename TextSecretaryForename = new SecretaryForename(getjTextField1()); 
+SecretarySurname TextSecretarySurname = new SecretarySurname(getjTextField2());
+SecretaryUsername TextSecretaryUsername = new SecretaryUsername(getjTextField3());
+SecretaryPassword TextSecretaryPassword = new SecretaryPassword(getjTextField4());
+SecretaryEmail TextSecretaryEmail = new SecretaryEmail(getjTextField5());
+SecretaryCountry TextSecretaryCountry = new SecretaryCountry(getjTextField6());
+SecretaryCity TextSecretaryCity = new SecretaryCity(getjTextField7());
+SecretaryAddressLine1 TextSecretaryAddressLine1 = new SecretaryAddressLine1(getjTextField8());
+SecretaryAddressLine2 TextSecretaryAddressLine2 = new SecretaryAddressLine2(getjTextField9());
+SecretaryPostcode TextSecretaryPostcode = new SecretaryPostcode(getjTextField10()); 
+ if (jTextField23.getText().equals(TextSecretaryUsername.getSecretaryUsername()) && (jTextField24.getText().equals(TextSecretaryPassword.getSecretaryPassword())))
  {  
-    jLabel27.setText((String) TextPatientUsername.getPatientUsername());
+    jLabel27.setText((String) TextSecretaryUsername.getSecretaryUsername());
  }
 
 

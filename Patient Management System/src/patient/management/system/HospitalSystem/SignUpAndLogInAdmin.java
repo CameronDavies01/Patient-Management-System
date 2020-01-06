@@ -717,19 +717,19 @@ SignUp.setVisible(false);
     }//GEN-LAST:event_jTextField23ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-PatientForename TextPatientForename = new PatientForename(getjTextField1()); 
-PatientSurname TextPatientSurname = new PatientSurname(getjTextField2());
-PatientUsername TextPatientUsername = new PatientUsername(getjTextField3());
-PatientPassword TextPatientPassword = new PatientPassword(getjTextField4());
-PatientEmail TextPatientEmail = new PatientEmail(getjTextField5());
-PatientCountry TextPatientCountry = new PatientCountry(getjTextField6());
-PatientCity TextPatientCity = new PatientCity(getjTextField7());
-PatientAddressLine1 TextPatientAddressLine1 = new PatientAddressLine1(getjTextField8());
-PatientAddressLine2 TextPatientAddressLine2 = new PatientAddressLine2(getjTextField9());
-PatientPostcode TextPatientPostcode = new PatientPostcode(getjTextField10()); 
- if (jTextField23.getText().equals(TextPatientUsername.getPatientUsername()) && (jTextField24.getText().equals(TextPatientPassword.getPatientPassword())))
+AdminForename TextAdminForename = new AdminForename(getjTextField1()); 
+AdminSurname TextAdminSurname = new AdminSurname(getjTextField2());
+AdminUsername TextAdminUsername = new AdminUsername(getjTextField3());
+AdminPassword TextAdminPassword = new AdminPassword(getjTextField4());
+AdminEmail TextAdminEmail = new AdminEmail(getjTextField5());
+AdminCountry TextAdminCountry = new AdminCountry(getjTextField6());
+AdminCity TextAdminCity = new AdminCity(getjTextField7());
+AdminAddressLine1 TextAdminAddressLine1 = new AdminAddressLine1(getjTextField8());
+AdminAddressLine2 TextAdminAddressLine2 = new AdminAddressLine2(getjTextField9());
+AdminPostcode TextPatientPostcode = new AdminPostcode(getjTextField10()); 
+ if (jTextField23.getText().equals(TextAdminUsername.getAdminUsername()) && (jTextField24.getText().equals(TextAdminPassword.getAdminPassword())))
  {  
-    jLabel27.setText((String) TextPatientUsername.getPatientUsername());
+    jLabel27.setText((String) TextAdminUsername.getAdminUsername());
  }
 
 
