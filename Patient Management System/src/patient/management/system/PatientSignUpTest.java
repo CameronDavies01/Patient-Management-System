@@ -25,7 +25,7 @@ import javax.swing.JOptionPane;
  *
  * @author camer
  */
-public class PatientManagementSystem {
+public class PatientSignUpTest {
 
     /**
      * @param args the command line arguments
